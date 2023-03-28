@@ -346,6 +346,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1042063811538348848}
   - component: {fileID: 1042063811552312030}
+  - component: {fileID: 1077939989443273821}
   m_Layer: 0
   m_Name: SA_Animal_Chick
   m_TagString: Untagged
@@ -428,3 +429,16 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0000023841858, y: -0.34530044, z: 0.24290848}
     m_Extent: {x: 1.6054511, y: 2.9824944, z: 3.8762627}
   m_DirtyAABB: 0
+--- !u!65 &1077939989443273821
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042063811538741760}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.2109017, y: 5.964988, z: 7.752525}
+  m_Center: {x: -0.0000023841856, y: 2.982494, z: 0.24290845}
